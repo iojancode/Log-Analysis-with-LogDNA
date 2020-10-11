@@ -222,7 +222,7 @@ In LogDNA, you can collect and forward data to a logging instance by using any o
 * `LogDNA agent`: Logging agent that automatically collects and forwards logs to 1 logging instance in your account.
 * `Syslog`: Logging daemon that collects information across multiple devices and system-services, and forwards logs to 1 logging instance in your account. 
 * `REST API`: API that you can use to send log data and custom metadata to 1 logging instance in your account.
-* `Code libraries`: Libraries that you can use to code ingestion of logs from your apps and services to 1 logging instance. LogDNA offer libraries for Node.JS, Python, Rails, Ruby, Go, iOS, Java, and PHP.
+* `Code libraries`: Libraries that you can use to code ingestion of logs from your apps and services to 1 logging instance. LogDNA offer libraries for Node.JS, Python, Rails, Ruby, Go, iOS, Java, C# and PHP.
 
 **For any method that you adopt, you have the flexibility to choose the logging instance where you want to send data per log source. Decide how many instances you might need to collect data from all your log sources based on who can see the data and the type of data that is collected. Avoid sending data to a logging instance that has the platform logs flag enabled.**
 {: tip}
